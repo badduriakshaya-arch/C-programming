@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int n,rev=0,d;
+	int n,d,rev=0;
 	printf("enter n value");
 	scanf("%d",&n);
 	while(n>0)
@@ -10,6 +10,6 @@ int main()
 		rev=rev*10+d;
 		n=n/10;
 	}
-	printf("reverse number is=%d",rev);
+	printf("reverse number=%d",rev);
 	return 0;
 }
